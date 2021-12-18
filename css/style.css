@@ -247,6 +247,7 @@ section {
 }
 .features_list {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 60px 30px;
@@ -500,4 +501,7 @@ section {
     font-style: 16px;
     padding: 10px;
   }
+}
+footer{
+  text-align: center;
 }
